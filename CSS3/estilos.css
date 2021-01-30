@@ -1,0 +1,35 @@
+* {
+    background-color: fuchsia;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#titulo-1 {
+    color: red;
+}
+
+#titulo-2 {
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+}
+
+.parrafo {
+    font-size: 40px;
+}
+
+p:nth-child(3) {
+    font-size: 70px;
+}
+
+p:nth-child(1) {
+    margin-left: 50px;
+}
+
+p.parrafo + p {
+    color: white;
+}

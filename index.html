@@ -7,54 +7,90 @@
         <title>Mi primer pagina en HTML5</title>
         <link rel="stylesheet" href="./styles.css">
     </head>
-    <body>
-        <header>
-            <h1>
-                Blog
-            </h1>
-        </header>
-        <nav>
-            <ul>
-                <li>Principal</li>
-                <li>Fotos</li>
-                <li>Videos</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
-        <section>
-            <article>
-                <header>
-                    <h2>
-                        Titulo del mensaje 1
-                    </h2>                    
-                </header>
-                <p>Este es el texto del primer mensaje</p>
-                <footer>
-                    <p>Comentarios (0)</p>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>
-                        Titulo del mensaje 2
-                    </h2>
-                </header>
-                <p>Este es el texto del 2do mensaje</p>
-                <footer>
-                    <p> Comentarios (2)</p>
-                </footer>
-            </article>
-        </section>
-        <aside>
-            <blockquote>
-                Mensaje #1
-            </blockquote>
-            <blockquote>
-                Mensaje #2
-            </blockquote>
-        </aside>
-        <footer>
-            Derechos reservados &copy: 2021
-        </footer>
+    <body> 
+        <div id="agrupar">
+            <header id="cabecera">
+                <h1>
+                    Blog
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>Principal</li>
+                    <li>Fotos</li>
+                    <li>Videos</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+            <section>
+                <article>
+                    <header>
+                        <hgroup>
+                            <h2>
+                                Titulo del mensaje 1
+                            </h2>
+                            <time datetime="2020-12-30" pubdate>
+                                publicado 2020-12-30
+                            </time>
+                            <h3>
+                                Subtitulo del mensaje 1
+                            </h3>
+                        </hgroup>                    
+                    </header>
+                    <p>Este es el texto del primer mensaje</p>
+                    <figure>
+                        <img src="./img/titanes.jpg" alt="Anime de shingeki no kygin de titanes">
+                        <figcaption>
+                            Anime de shingeki no kygin de titanes
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                            <h2>
+                                Titulo del mensaje 2
+                            </h2>
+                            <time datetime="2020-12-31" pubdate>
+                                publicado 2020-12-31
+                            </time>
+                            <h3>
+                                Subtitulo del mensaje
+                            </h3>
+                        </hgroup>
+                    </header>
+                    <p>Este es el texto del 2do mensaje</p>
+                    <figure>
+                        <img src="./img/rickandmorty.jpg" alt="Saludo de rick y morty para el mundo dentro de la bateria del carro">
+                        <figcaption>
+                            Saludo de rick y morty para el mundo dentro de la bateria del carro
+                        </figcaption>
+                    </figure>
+                    <footer>
+                        <p> Comentarios (2)</p>
+                    </footer>
+                </article>
+            </section>
+            <section>
+                <span>Lorem ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Quis ducimus <mark>consequatur</mark> natus in accusamus ad sunt, quod incidunt id <strong>veritatis</strong>. Id <small>blanditiis</small> officia quis? Ratione repellendus expedita ipsam <em>quidem</em> <cite>consectetur?</cite></span>
+            </section>
+            <aside>
+                <blockquote>
+                    Mensaje #1
+                </blockquote>
+                <blockquote>
+                    Mensaje #2
+                </blockquote>
+            </aside>
+            <footer>
+                <address>
+                    <a href="https://animemovil2.com/">Pagina para ver anime</a>
+                </address>
+                Derechos reservados &copy: 2021
+            </footer>
+        </div>
     </body>
 </html>
