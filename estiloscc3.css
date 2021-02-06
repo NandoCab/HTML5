@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+} 
+
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #999999;
+    /*background-color: #dddddd;*/
+
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+    background: -webkit-linear-gradient(right,#fff,#08e699);
+    background: -moz-linear-gradient(right,#fff,#08e699);
+
+    /*outline: 2px dashed #80d899;
+    outline-offset: -15px;*/
+}
+
+#titulo {
+    font: bold 36px Fuente1, sans-serif;
+    text-shadow: rgba(0, 8, 8, 0.2) 3px 3px 5px;
+}
+
+@font-face {
+    font-family: "Fuente1";
+    src: url("./BebasNeue\ Bold.ttf")
+
+}
