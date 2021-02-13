@@ -18,6 +18,19 @@ body {
 
     /*outline: 2px dashed #80d899;
     outline-offset: -15px;*/
+
+    /*transform: scale(1,-1);*/
+    /*transform: rotate(30deg);*/
+    /*transform: skew(20deg)*/
+    /*transform: translate(100px);*/
+    /*transform: translateY(100px) rotate(45deg) scaleX(0.3);*/
+    transition: transform 2s ease-in-out 0.2s;
+
+}
+
+#principal:hover{
+transform: rotate(5deg);
+
 }
 
 #titulo {
@@ -30,3 +43,4 @@ body {
     src: url("./BebasNeue\ Bold.ttf")
 
 }
+

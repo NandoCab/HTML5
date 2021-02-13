@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    /*grid-template-columns: 100px repeat(2, 50px) 200px;
+    grid-template-rows: repeat(2, 50px, 100px);*/
+
+    grid-template-areas: "head head"
+                         "menu main"
+                         "foot foot";
+}
+
+.a {grid-area: head; background: blue;}
+.b {grid-area: menu; background: green;}
+.c {grid-area: main; background:  yellow;}
+.d {grid-area: foot; background: pink;}
+
+.grid {
+    /*grid-column-gap: 100px;*/
+    grid-gap: 20px 50px;    
+    /*grid-row-gap: 10px;*/
+}
