@@ -1,0 +1,14 @@
+.col {
+    border: 1px solid black;
+}
+
+.col-sm-4 {
+    border: 1px solid blue;
+}
+
+.col-sm-8 {
+    border: 1px solid blue;
+}
+.dispositivo {
+    border: 1px solid green;
+}
